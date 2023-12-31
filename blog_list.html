@@ -1,0 +1,90 @@
+<style>
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 780px;
+    margin: 0 auto;
+}
+article{
+    display: flex;
+    align-items: flex-start;
+	margin-top: 10px;
+}
+#heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+	border-bottom: 1px solid #e1e1e1;
+
+}
+
+
+/* Styling */
+
+#heading h1 span{
+    font-size: 1em;
+    color: #71BC2F;
+}
+article{
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+}
+article img{
+    margin-right: 15px;
+}
+span{
+    font-size: 11px;
+}
+p{
+    font-size: 13px;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    line-height:1em;
+}
+
+@media (max-width: 779px){
+    main{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    article{
+        flex-direction: column;
+    }
+    article img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+a {
+    display: block;
+	color: inherit;
+}
+</style>
+
+<body>
+	<main>
+		<div id="heading">
+			<h1><span>Recent</span> Blogs</h1>
+			<img  />
+		</div>
+		<br>
+		<br>
+		<a href="blogs/blog_1.html">
+		<article>
+			<img src="blogs/blog_1.svg" width="500px" />
+			<div class="text" href="blogs/blog_1.html">
+				<h2>EMPOWERING INFLUENCER MARKETING WITH DATA </h2>
+				<p>December 30, 2023</p>
+				<p>
+					The Rise of Influencer Marketing.
+				</p>
+			</div>
+		</article>
+		</a>
+
+	</main>
+
+</body>
